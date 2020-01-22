@@ -24,7 +24,7 @@ The available hyperparameters are: number of hidden layers, number of hidden uni
 
 ## Results
 
-As can be seen from the below Figure after 15 epochs development error doesn't change significanty. The gap between development error and training error after 10 epochs might suggest that the model is underfitting the data. However, when the neural network architecture was modified to be more complex the model was overfitting the training data, resulting in lower training loss function and higher development loss function. Therefore, this architecture was chosen as the final one.  
+As can be seen from the below Figure after 15 epochs development error doesn't change significanty. The large gap between development error and training error after 10 epochs might suggest that the model is underfitting the data. However, when the neural network architecture was modified to be more complex the model was overfitting the training data, resulting in lower training loss function and higher development loss function. Therefore, this architecture was chosen as the final one.  
 
 ![](Loss_functions.png)
 
